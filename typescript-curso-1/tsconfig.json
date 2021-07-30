@@ -1,10 +1,10 @@
 {
     "compilerOptions": {
-        "outDir": "dist/js",
+        "outDir": "dist/js", // local os arquivos js serão "colocados"
         "target": "ES6",
         "noEmitOnError": true
     },
     "include": [
-        "app/**/*"
+        "app/**/*" // local onde os arquivos ts estão
     ]
 }
