@@ -11,7 +11,7 @@ export abstract class View<T> {
         this.elemento.innerHTML = template;
     }
 
-    abstract template(model: T): string;
+    protected abstract template(model: T): string;
     // cria um método abstrado -> a responsabilidade da implementação fica por parte dos filhos
 
 }
