@@ -14,7 +14,7 @@ export class NegociacoesView extends View<Negociacoes> {
                 </tr>
             </thead>
             <tbody>
-            ${model.lista().map(negociacao=>{
+            ${model.lista().map(negociacao => {
                 return `
                 <tr>
                     <td>${new Intl.DateTimeFormat().format(negociacao.data)}</td>
