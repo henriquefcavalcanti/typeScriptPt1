@@ -8,3 +8,5 @@ export var DiasDaSemana;
     DiasDaSemana[DiasDaSemana["SEXTA"] = 5] = "SEXTA";
     DiasDaSemana[DiasDaSemana["SABADO"] = 6] = "SABADO";
 })(DiasDaSemana || (DiasDaSemana = {}));
+// As enum começa de 0, porém, se modificarmos o valor de alguma das enum, 
+// os próximos valores passarão a contar a partir do novo valor
