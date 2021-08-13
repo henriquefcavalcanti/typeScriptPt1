@@ -6,8 +6,8 @@ import { MensagemView } from '../views/mensagem-view.js';
 export class NegociacaoController {
     constructor() {
         this.negociacoes = new Negociacoes();
-        this.negociacoesView = new NegociacoesView('#negociacoesView');
-        this.mensagemView = new MensagemView('#mensagemView');
+        this.negociacoesView = new NegociacoesView('#negociacoesView', true);
+        this.mensagemView = new MensagemView('#mensagemView', false);
         this.SABADO = 6;
         this.DOMINGO = 0;
         this.inputData = document.querySelector('#data');
