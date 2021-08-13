@@ -4,7 +4,7 @@
         "target": "ES6",
         "noEmitOnError": true,
         "noImplicitAny": true,
-        "removeComments": true
+        "removeComments": true // remove comentarios no codigo compilado
     },
     "include": [
         "app/**/*" // local onde os arquivos ts estão
