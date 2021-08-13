@@ -27,6 +27,9 @@ export class NegociacaoController {
             this.inputQuantidade.value,
             this.inputValor.value
         )
+        
+            // teste de remoção de comentários
+
         if (!this.ehDiaUtil(negociacao.data)) {
             this.mensagemView.update('Apenas negociações em dias úteis são aceitas');
             return;
